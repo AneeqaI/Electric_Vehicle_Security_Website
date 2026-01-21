@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EV security | News & Secutity</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--internal css-->
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        header {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: #ffffff;
+          padding: 20px 40px;
+          transition: padding 0.3s ease, background-color 0.3s ease;
+          z-index: 1000;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        header.shrink {
+          padding: 10px 40px;
+        }
+
+        .logo h2 {
+          font-size: 24px;
+          transition: font-size 0.3s ease;
+        }
+
+        header.shrink .logo h2 {
+          font-size: 18px;
+        }
+
+        nav ul.navbar {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+          align-items: center;
+        }
+
+        nav ul.navbar li {
+          position: relative;
+        }
+
+        nav ul.navbar li a {
+          text-decoration: none;
+          color: black;
+          padding: 5px;
+        }
+
+          nav ul.navbar .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #f9f9f9;
+            padding: 10px 15px;
+            list-style: none;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+          }
+        nav ul.navbar li:hover .submenu {
+          display: block;
+        }
+
+        .border-box {
+          margin-left: 20px;
+          padding: 6px 12px;
+          background: #3d517f;
+          color: white;
+          border: none;
+          cursor: pointer;
+        }
+
+        .border-box a {
+          text-decoration: none;
+          color: white;
+        }
+
+        main {
+          padding-top: 120px; 
+        }
+
+      </style>
+  <body>
+      <main>
+          <header id="mainHeader">
+              <div class="logo">
+                  <h2>EV Security<br> Hub</h2>
+              </div>
+              <nav>
+                  <ul class="navbar">
+                      <li><a href="index.html">Home  
+                          <ul class="submenu">
+                              <li><a href="login.html">Login</a></li>
+                          </ul>
+                      </a></li>
+                      <li><a href="help.html">Help & Community</a></li>
+                      <li><a href="news.html">News & Security Updates
+                          <ul class="submenu">
+                              <li><a href="blogs.html">Blogs</a></li><br>
+                              <li><a href="safety.html">Safety Practices</a></li>
+                          </ul>
+                      </a></li>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <button class="border-box"><a href="form.html">Submit your story!</a></button>
+                  </ul>
+              </nav>
+          </header>
+        </main>
+
+<img src="yrka-pictured--q4BMJvgW8g-unsplash_compressed.jpg" alt="car abstract" class="car" style="opacity: 100%"><br>
+<!--<a href="https://unsplash.com/@yrkapictured" style="float:right;" class="hover-link">by Yrka pictured on upsplash</a><br><br>-->
+<p style="padding:10px; line-height: 40px;">As electric vehicles continue to <span class="color_change">transform mobility</span>, 
+    they come with their <span class="color_change">own set of novel security risks</span>  
+    that any driver must be aware of. 
+    Growing deployment of networked systems inside EVs—from onboard storage space for data, 
+    charging facilities, to communications 
+    software applications—opens many doorways through which cybercriminals could invade. 
+    One of the <span class="color_change">key concerns</span> is susceptibility to information intrusions and personal life threats. 
+    EVs collect plenty of <span class="color_change">individual data, such as driving habits, location, and charging behavior,</span> 
+    which is within reach for hackers. For data protection, <span class="color_change">using encrypted links to communicate</span> is 
+    critical, adding two-factor authentication (2FA) to the account linked with the vehicle, and 
+    regularly updating the vehicle software to fix weaknesses.  
+    <br><br>
+    In addition to <span class="color_change">data stealing</span>, EVs are susceptible to malware and ransomware infections. 
+    Cyberthieves can attempt to break into the onboard computer of the car, hijacking 
+    features like navigation or locking mechanisms, or simply demanding ransom in exchange 
+    for opening the vehicle. Keeping your EV's <span class="color_change">firmware updated</span> and avoiding public Wi-Fi 
+    hotspots are great measures to prevent such attacks from occurring. Similarly, <span class="color_change">remote 
+    hijacking</span> of charging stations is also something to be worried about. Charging points 
+    are normally integrated with mobile apps or cloud platforms, and if these are not securely 
+    configured, <span class="color_change">attackers will be able to disrupt charging activities or tinker with devices.</span> 
+    To avoid this, only securely configured, dependable charging points with robust authentication 
+    protocols should be used, and verify the authenticity of the charging point before use. </p>
+
+    <img src="zaptec-2jRNVr0ac7s-unsplash_compressed.jpg" alt="car abstract" class="car2"style="opacity: 100%">
+    <br>
+    <!--<a href="https://unsplash.com/@zaptec"class="hover-link">by Zaptec on upsplash</a>-->
+    <p style="padding:10px; line-height: 40px;"><span class="color_change">Vehicle-to-Grid (V2G) technology</span> that allows EVs to <span class="color_change">supply electricity</span> back to the grid 
+        is another <span class="color_change">critical vulnerability</span>. While this ability is beneficial for energy management, 
+        it also offers a chance for cyberattacks on the <span class="color_change">vehicle-grid connection</span>. Strong encryption 
+        and authentication techniques should be employed in V2G systems to avoid unauthorized access. 
+        Keyless entry systems and remote vehicle control, features found in most EVs, are also 
+        vulnerable to hacking. To <span class="color_change">avoid physical theft</span>, place your key fob inside a Faraday bag 
+        during non-use and keep the vehicle locked when left unattended. 
+        <br><br>
+        The <span class="color_change">charging infrastructure</span> itself is also at risk of security threats. 
+        Charging points with weak cybersecurity measures are <span class="color_change">favorite targets</span> for 
+        hackers, who can try to interfere with services or hijack energy. If you 
+        operate a charging station, there needs to be <span class="color_change">performed security audits</span>, installation 
+        of a <span class="color_change">firewall</span>, and <span class="color_change">machine learning-based intrusion detection mechanisms</span> to scan 
+        for anomalous traffic. For the consumer, use of encrypted and validated 
+        charging stations, especially from <span class="color_change">established vendors</span>, will help to significantly 
+        <span class="color_change">reduce the potential attack threat</span>. The optimum general practice can guarantee 
+        the <span class="color_change">prevention of many attacks</span>. Securing your EV apps and accounts with strong, 
+        good, and <span class="color_change">distinct passwords</span> and enabling 2FA adds another layer of protection. 
+        <span class="color_change">Regular updates</span> to your car's software ensure you are always running the latest 
+        security patches, and avoiding public Wi-Fi to perform sensitive actions reduces contact 
+        with malicious players. <span class="color_change">Monitoring</span> your car for suspicious activity—such as 
+        unauthorized purchases or location updates—can also alert you to potential security breaches. 
+        If you <span class="color_change">suspect any breach</span>, it's critical to act promptly by calling your vehicle's 
+        manufacturer or service provider. 
+
+        Lastly, EVs are with <span class="color_change">numerous benefits</span> but require cybersecurity focus as well. 
+        By being <span class="color_change">well aware</span> of the potential risks and following best practices, you can 
+        actually <span class="color_change">reduce the chances</span> of becoming a cybercrime victim. Securing your EV and 
+        supporting systems gives a better, <span class="color_change">safer experience</span> as you continue moving toward 
+        the future of electric mobility. </p>   
+
+<!--footer-->
+<footer>
+    <br>
+    <p>Careers</p><br>
+    <p>Help</p><br>
+    <p>Other contacts</p><br>
+    <p>Why choose us</p><br><br>
+    
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/home" target="_blank" title="Visit my LinkedIn">
+        <i class="fa-brands fa-linkedin"style="color: #0077B5;"></i>
+      </a>
+      <a href="https://twitter.com/yourusername" target="_blank" title="X (Twitter)">
+        <i class="fa-brands fa-x-twitter" style="color: #000000;"></i>
+      </a>
+      <a href="https://www.instagram.com/yourusername" target="_blank" title="Instagram">
+        <i class="fa-brands fa-instagram" style="color: #f32b6e;"></i>
+      </a>
+      <a href="https://www.whatsapp.com/" target="_blank" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+      </a>
+    </div>
+    
+    </footer>
+
+    <script>
+        const header = document.getElementById('mainHeader');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('shrink');
+            } else {
+                header.classList.remove('shrink');
+            }
+        });
+    </script> 
+    
+</body>
+</html>

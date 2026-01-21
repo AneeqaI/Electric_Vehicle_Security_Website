@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>EV security | Communtiy</title>
+     <!--internal css-->
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        header {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: #ffffff;
+          padding: 20px 40px;
+          transition: padding 0.3s ease, background-color 0.3s ease;
+          z-index: 1000;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        header.shrink {
+          padding: 10px 40px;
+        }
+
+        .logo h2 {
+          font-size: 24px;
+          transition: font-size 0.3s ease;
+        }
+
+        header.shrink .logo h2 {
+          font-size: 18px;
+        }
+
+        nav ul.navbar {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+          align-items: center;
+        }
+
+        nav ul.navbar li {
+          position: relative;
+        }
+
+        nav ul.navbar li a {
+          text-decoration: none;
+          color: black;
+          padding: 5px;
+        }
+
+          nav ul.navbar .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #f9f9f9;
+            padding: 10px 15px;
+            list-style: none;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+          }
+        nav ul.navbar li:hover .submenu {
+          display: block;
+        }
+
+        .border-box {
+          margin-left: 20px;
+          padding: 6px 12px;
+          background: #3d517f;
+          color: white;
+          border: none;
+          cursor: pointer;
+        }
+
+        .border-box a {
+          text-decoration: none;
+          color: white;
+        }
+
+        main {
+          padding-top: 120px; 
+        }
+
+      </style>
+  <body>
+      <main>
+          <header id="mainHeader">
+              <div class="logo">
+                  <h2>EV Security<br> Hub</h2>
+              </div>
+              <nav>
+                  <ul class="navbar">
+                      <li><a href="index.html">Home  
+                          <ul class="submenu">
+                              <li><a href="login.html">Login</a></li>
+                          </ul>
+                      </a></li>
+                      <li><a href="help.html">Help & Community</a></li>
+                      <li><a href="news.html">News & Security Updates
+                          <ul class="submenu">
+                              <li><a href="blogs.html">Blogs</a></li><br>
+                              <li><a href="safety.html">Safety Practices</a></li>
+                          </ul>
+                      </a></li>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <button class="border-box"><a href="form.html">Submit your story!</a></button>
+                  </ul>
+              </nav>
+          </header>
+        </main> 
+        
+    <div class="page_">
+        <div class="new">
+            <h3><strong>BEST QUESTIONS TO ASK BEFORE / AFTER PURCHASING AN EV:<br></strong></h3>
+            <p>Q) How do I report a security incident?<br></p>
+            <p>Q) What should I do if I suspect a theft attempt?<br></p>
+            <p>Q) How can I secure my account?<br></p>
+            <p>Q) What are the best security practices for my EV?<br></p>
+            <p>Q) How do I change my password on the system?<br></p>
+            <p>Q) How do I enable two-factor authentication?<br></p>
+            <p>Q) How do I report a bug or vulnerability?<br></p>
+        </div>
+        <div class="new">
+            <h3><strong>STORIES AND EXPERIENCES:<br></strong></h3>
+            <p id="usertext"></p>
+        </div>
+        <div class="new" style="overflow-y: auto;">
+            <h3><strong>FAQs:<br></strong></h3>
+            <p><strong>What is EV Security and why does it matter?</strong><br><br>
+                EV Security focuses on protecting electric vehicles (EVs) from digital 
+                threats like hacking, data breaches, and remote access vulnerabilities. 
+                As EVs become smarter, securing their software and data is more important than ever.</p>
+                
+            <p><strong>What kind of stories can I share on this platform?</strong><br><br>
+                You can share anything from security-related incidents, suspicious behavior, 
+                or scams to helpful tips and lessons learned from EV ownership. 
+                Your experience might help someone else!</p>
+
+            <P><strong>Will my submission be reviewed or moderated?</strong><br><br>
+              Currently, all stories are submitted instantly to the community feed.
+              However, we may implement moderation tools if needed to keep the space safe and respectful.</P>
+
+            <p><strong>Do I need an account to share my story?</strong><br><br>
+              Nope! Just fill out the form and submit it! We keep things simple and privacy-friendly.</p>
+        </div>
+
+        <div class="new" id="box_x">
+          <p>LEARN NEW TIPS DAILY!<br></p>
+        </div>
+        <div class="new" id="box_x">
+          <p>HEY;<br>TELL YOUR STORY<br></p>
+        </div>
+        <div class="new" id="box_x">
+          <p>ANY QUESTIONS FOR US?<br></p>
+        </div>
+
+<!--footer-->
+<footer>
+    <br>
+    <p>Careers</p><br>
+    <p>Help</p><br>
+    <p>Other contacts</p><br>
+    <p>Why choose us</p><br><br>
+    
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/home" target="_blank" title="Visit my LinkedIn">
+        <i class="fa-brands fa-linkedin"style="color: #0077B5;"></i>
+      </a>
+      <a href="https://twitter.com/yourusername" target="_blank" title="X (Twitter)">
+        <i class="fa-brands fa-x-twitter" style="color: #000000;"></i>
+      </a>
+      <a href="https://www.instagram.com/yourusername" target="_blank" title="Instagram">
+        <i class="fa-brands fa-instagram" style="color: #f32b6e;"></i>
+      </a>
+      <a href="https://www.whatsapp.com/" target="_blank" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+      </a>
+    </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('mainHeader');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('shrink');
+            } else {
+                header.classList.remove('shrink');
+            }
+        });
+    
+        /*--local storage form form page--*/
+       
+        const name = localStorage.getItem('userName');
+        const experience = localStorage.getItem('userShareExperience');
+
+        const display = document.getElementById('usertext');
+
+        if (name && experience) {
+        display.textContent = `${name} shared – "${experience}"`;
+            } else {
+        display.textContent = 'No shared experience found.';
+        }
+    </script>
+
+</body>
+</html>

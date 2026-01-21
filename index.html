@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EV security | Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+    <!--internal css-->
+        <style>
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+
+          header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 20px 40px;
+            transition: padding 0.3s ease, background-color 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          header.shrink {
+            padding: 10px 40px;
+          }
+
+          .logo h2 {
+            font-size: 24px;
+            transition: font-size 0.3s ease;
+          }
+
+          header.shrink .logo h2 {
+            font-size: 18px;
+          }
+
+          nav ul.navbar {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+          }
+
+          nav ul.navbar li {
+            position: relative;
+          }
+
+          nav ul.navbar li a {
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+          }
+
+          nav ul.navbar .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #f9f9f9;
+            padding: 10px 15px;
+            list-style: none;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+          }
+          nav ul.navbar li:hover .submenu {
+            display: block;
+          }
+
+          .border-box {
+            margin-left: 20px;
+            padding: 6px 12px;
+            background: #3d517f;
+            color: white;
+            border: none;
+            cursor: pointer;
+          }
+
+          .border-box a {
+            text-decoration: none;
+            color: white;
+          }
+
+          main {
+            padding-top: 120px; 
+          }
+
+        </style>
+    <body>
+        <main>
+            <header id="mainHeader">
+                <div class="logo">
+                    <h2>EV Security<br> Hub</h2>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home  
+                            <ul class="submenu">
+                                <li><a href="login.html">Login</a></li>
+                            </ul>
+                        </a></li>
+                        <li><a href="help.html">Help & Community</a></li>
+                        <li><a href="news.html">News & Security Updates
+                            <ul class="submenu">
+                                <li><a href="blogs.html">Blogs</a></li><br>
+                                <li><a href="safety.html">Safety Practices</a></li>
+                            </ul>
+                        </a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <button class="border-box"><a href="form.html">Submit your story!</a></button>
+                    </ul>
+                </nav>
+            </header>
+        </main>
+    
+<div class="image1">
+    <img src="patrick-langwallner-5UXeieG7YI4-unsplash01_compressed.jpg" alt="Electric cars" 
+    style="width: 99% ; height:540px; ">
+    <br>    
+    <div class="image_text">
+        <h1 aria-label="EV Security Hub" style=" margin: 10px;font-family: 
+        'Arial', sans-serif; font-size: 50px;"><strong>EV SECURITY HUB</strong></h1>
+        <strong><p> THE ULTIMATE GUIDE TO EV SECURITY<BR>
+        SIGNUP TO THE WEEKLY NEWLETTER TODAY!</p></strong>
+    </div>
+</div>
+<div class="container">
+    <div class="box" id="Latest">
+        <h3><strong>Latest Security News</strong></h3>
+    <p>In the recent months there have been a significant increase in 
+      EV vehicles being the target for crimes. A recent representation 
+      of this would be EV’s being the victims of <a href="https://www.bbc.co.uk/news/articles/cq5zp064948o"
+      style=" color:#4cbb17">charging cable thefts</a> in the UK. This is becoming a significant issue in 
+      the west midlands which is the western part of central England and has faced a significant increase in 
+      EV related crimes. There is a steadily increasing rate of thefts and similar occurrences taking place 
+      in the area as well as around the rest of England.<br><br>There are civilians who have been negatively 
+      affected by these crimes and have faced situations where they are unable to get to a charger before they 
+      run out of battery. They have expected the chargers to be accessible but because of these thefts, are 
+      left without and unable to do anything about it, most likely spending hundreds on tow trucks to get their 
+      car back home or to a charger that has not been affected by these criminal activities. <br><p class="highlight">
+      As mentioned by Jo Malam; "To get to a charging point and find that there's no head on to charge it would be 
+      a massive problem because normally you've not got enough energy to get to the next one."
+    <p>This shows the growing security issues representing themselves within the EV’s we are living amongst today.
+      
+    </p>
+    </div>
+    <div class="box">
+
+        <img src="varun-palaniappan-_JkqGe0ufU8-unsplash_compressed.jpg" alt="Tesla Cyber Truck" style="width: 100%; height:250px; opacity:100%;"><br>
+      
+        <a href="https://unsplash.com/@vpalania75" class="hover-link">
+          Tesla Cyber Truck by Varun Palaniappan
+        </a><br><br>
+      
+        <p style=" color:#4cbb17"><strong>‘Cyber truck owner says its rough out there right now’<br><br></strong></p>
+
+           <p><a href="https://www.businessinsider.com/cybertruck-owners-tesla-takedown-protest-harassment-vandalism-2025-3?international=true&r=US&IR=T" style=" color:#4cbb17">Cyber trucks</a> 
+            trucks are being the target of targeted attacks and harassment as the ongoing 
+            feud with Elon musk becoming a controversial figure online continues. 10+ cyber 
+            truck owners have come forth to a multinational financial and business online 
+            news report website based in New York.<br><br> They say there are noticeable spikes 
+            in harassment as of recently as anti-Elon Musk protest increase and tesla 
+            boycotting spreads like wildfire across the US. There are many people who haven't seen 
+            a significant increase of harassment after the election of trump January 20th, 2025. 
+            <br><br>
+            Source:<em><strong><a style=" color:#4cbb17" href="https://www.businessinsider.com/cybertruck-owners-tesla-takedown-protest-harassment-vandalism-2025-3?international=true&r=US&IR=T">Business Insiders</a></em></strong></p>
+      </div>
+
+      <style>
+        .hover-link {
+          color: rgb(180, 180, 180);
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+      
+        .hover-link:hover {
+          color: #000000;
+          text-decoration: underline;
+        }
+      </style>
+      
+    <div class="box">
+      <img src="nelly-antoniadou-07rYS9_iEkc-unsplash_compressed.jpg" alt="safety" style="width: 100%; height:250px; opacity:100%;"><br>
+
+      <a href="https://unsplash.com/@nelly13"class="hover-link">Stay Safe by Nelly Antouniadou</a><br><br>
+
+        <p><strong style=" color:#4cbb17">‘Hyundai Sued Over EV Car Thefts' </strong><br><br>
+
+          Elliot Ingram was shocked when his Hyundai Ioniq 5 was <a href="https://www.theguardian.com/technology/2025/mar/29/hyundai-facing-legal-action-over-car-that-can-be-stolen-effortlessly-in-seconds" style=" color:#4cbb17">stolen in seconds</a> 
+          from outside his UK home, caught on his security camera. 
+          Thieves used a £12,000 device resembling a Nintendo console that mimics key signals 
+          to unlock and start electric cars. The device, operating in English 
+          and Russian, can duplicate a car's signal in 10 seconds to two minutes and store it for 
+          repeated use.Hyundai had known about the vulnerability but didn’t inform customers. 
+          Ingram said he would've taken extra precautions if warned. <br><br>
+          While Hyundai is now seeking solutions, their silence has hurt customer trust. 
+          New laws aim to ban the use and sale of such theft devices. 
+          <br><br>
+          Source:<em><strong><a style=" color:#4cbb17" href="https://www.theguardian.com/technology/2025/mar/29/hyundai-facing-legal-action-over-car-that-can-be-stolen-effortlessly-in-seconds">The Guardian</a></em></strong></p>
+        <style>
+            .hover-link {
+              color: rgb(180, 180, 180);
+              text-decoration: none;
+              transition: all 0.3s ease;
+            }
+          
+            .hover-link:hover {
+              color: #000000;
+              text-decoration: underline;
+            }
+          </style>
+    </div>
+    <div class="box">
+        <img src="anisha-paul-bb5sjcmIJc4-unsplash_compressed.jpg" alt="exit" style="width: 100%; height:250px; opacity:100%;"><br>
+        <a href="https://unsplash.com/@_nsh_pl_"class="hover-link">Exit by Aisha Paul</a><br><br>
+        
+        <p><strong style=" color:#4cbb17">‘800,000 peoples data leaked. voltswagen responsible.’ </strong><br><br>
+
+          This  breach was discovered by a a german hacker group called the CCC (Chaos Computer Club) 
+          which was then notifying the the company of these problems and then was able to patch 
+          up the vulnerabilities before people with hainious intent discovered the holes. The 
+          details leaked included accurate data on the location of the owner through GPS tracking 
+          and personal information such as contact information. This was a big issue which represents 
+          only a fraction of the bigger problems emerging around the security of electric vehicles. 
+          This problem persists in the chances of happening again increasing drastically as the 
+          production of electric vehicles became the generational norm.  
+          <br><br>
+          Source:<em><strong><a style=" color:#4cbb17" href="https://cybersecuritynews.com/volkswagen-data-breach/?utm ">Cyber Security News</a></em></strong></p>
+        <style>
+        .hover-link {
+          color: rgb(180, 180, 180);
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+      
+        .hover-link:hover {
+          color: #000000;
+          text-decoration: underline;
+        }
+      </style>
+    </div>
+</div>
+
+<!--footer-->
+<footer>
+    <br>
+    <p>Careers</p><br>
+    <p>Help</p><br>
+    <p>Other contacts</p><br>
+    <p>Why choose us</p><br><br>
+    
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/home" target="_blank" title="Visit my LinkedIn">
+        <i class="fa-brands fa-linkedin"style="color: #0077B5;"></i>
+      </a>
+      <a href="https://twitter.com/yourusername" target="_blank" title="X (Twitter)">
+        <i class="fa-brands fa-x-twitter" style="color: #000000;"></i>
+      </a>
+      <a href="https://www.instagram.com/yourusername" target="_blank" title="Instagram">
+        <i class="fa-brands fa-instagram" style="color: #f32b6e;"></i>
+      </a>
+      <a href="https://www.whatsapp.com/" target="_blank" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+      </a>
+    </div>
+    
+    </footer>
+    <script>
+      const header = document.getElementById('mainHeader');
+
+      window.addEventListener('scroll', () => {
+          if (window.scrollY > 50) {
+              header.classList.add('shrink');
+          } else {
+              header.classList.remove('shrink');
+          }
+      });
+  </script> 
+</body>
+</html>
